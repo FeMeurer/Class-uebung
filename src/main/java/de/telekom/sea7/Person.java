@@ -21,8 +21,8 @@ public class Person { // public class Preis
 
 	public boolean equals(Person zweitePerson) {
 		if (this.gebTag == zweitePerson.gebTag && this.gebMonat == zweitePerson.gebMonat
-				&& this.gebJahr == zweitePerson.gebJahr && this.vorname == zweitePerson.vorname
-				&& this.nachname == zweitePerson.nachname && this.geschlecht == zweitePerson.geschlecht) {
+				&& this.gebJahr == zweitePerson.gebJahr && this.vorname.equals(zweitePerson.vorname)
+				&& this.nachname.equals(zweitePerson.nachname) && this.geschlecht.equals(zweitePerson.geschlecht)) {
 			return true;
 		}
 		else {
