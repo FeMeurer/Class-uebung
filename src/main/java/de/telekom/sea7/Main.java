@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Person person_herbert = new Person("Herbert","Müller","m",3,6,1984); 
-		Person person_Jutta = new Person("Jutta","Bauer","w",17,3,1970);
-		Person person_herbert2 = new Person("Herbert","Müller","m",3,6,1984); 
+		Person person_herbert = new Person("Herbert","Müller","m",3,6,1984,11111111111l); // l hinter Zahl weist auf long hin
+		Person person_Jutta = new Person("Jutta","Bauer","w",17,3,1970,12345678912l);
+		Person person_herbert2 = new Person("Herbert","Müller","m",3,6,1984,11111111111l); 
 		
 		Punkt punkt1 = new Punkt(30,28);
 		Punkt punkt2 = new Punkt(5,70);
